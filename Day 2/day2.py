@@ -39,5 +39,5 @@ tup = (("abcd","abcd"),("more","more"),("yet","yet"))
 
 print(tup[0])
 
-#end
+#end of script
 
