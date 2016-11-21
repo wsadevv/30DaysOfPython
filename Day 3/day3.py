@@ -20,4 +20,8 @@ if(not a==b): #(! no java == not no python)
 
 print("Resultado booleano: ",teste)
 
-print (6 == 6)
+i = 0
+j = 0
+for i in xrange(1,10):
+	print('B')
+	
