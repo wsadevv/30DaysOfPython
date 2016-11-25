@@ -11,20 +11,20 @@ def percentParser(toInsert):
     return finalText
 
 
-def purchases(default_message, consumers, items, prices):
-    for i in len(consumers):
-    	default_message.format(consumer=consumers[i], item=items[i], price=prices[i]
-    print(default_message)
-    return default_message
-
+def purchases(consumers, items):
+    if(len(consumers) == len(items)):
+        i = 0
+        for consumer in consumers:
+            new_msg = default_message.format(consumer=consumer, item=items[i])
+            i += 1
+            print(new_msg)
 print(formatter('Willian'))
 print(percentParser('Josefina'))
 
 
-consumers=['Willian', 'Karina', 'Manoela', 'Joana']
-items=['PS4', 'Zenfone 3', 'Cirilo', 'Belfort Action Figure']
-prices=[100.99, 200, 999.666, 700]
+consumers = ['Willian', 'Karina', 'Manoela', 'Joana']
+items = ['PS4', 'Zenfone 3', 'Cirilo', 'Belfort Action Figure']
 
-default_message="Thank you {consumer}, for your purchase of {item} with value of {price}"
+default_message = "Thank you {consumer}, for your purchase of {item}"
 
-purchases(default_message, consumers, items, prices)
+purchases(consumers, items)
