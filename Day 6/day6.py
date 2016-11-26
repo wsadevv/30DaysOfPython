@@ -26,5 +26,6 @@ consumers = ['Willian', 'Karina', 'Manoela', 'Joana']
 items = ['PS4', 'Zenfone 3', 'Cirilo', 'Belfort Action Figure']
 
 default_message = "Thank you {consumer}, for your purchase of {item}"
+print("Hello darkness my old friend!")
 
 purchases(consumers, items)
