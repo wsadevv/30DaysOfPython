@@ -8,6 +8,7 @@ host = "smtp.gmail.com"
 port = 587
 username = "your_mail"
 password = "your_pass"
+
 sender = username
 receivers = ["receiver_mail", 'receiver_mail']
 
