@@ -26,3 +26,6 @@ emailConnection.sendmail(sender, receivers, "Standard message.")
 
 # finish:
 emailConnection.quit()
+
+def magic():
+    print("Magic")
