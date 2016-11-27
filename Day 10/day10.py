@@ -1,5 +1,5 @@
 # assim
-#import smtplib
+import smtplib
 
 # ou assim
 from smtplib import SMTP
